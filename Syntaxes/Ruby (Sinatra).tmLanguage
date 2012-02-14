@@ -15,6 +15,34 @@
 			<string>keyword</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string.quoted.single.js</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>keyword</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^.*(configure|before|error|get|put|post|delete)(.*)(do)</string>
+			<key>name</key>
+			<string>dsl.sinatra</string>
+			<key>symbolTransformation</key>
+			<string>
+				s/.*(get|put|post|delete)(.*)do/$1: $2/;
+			</string>
+		</dict>
+		<dict>
 			<key>include</key>
 			<string>source.ruby</string>
 		</dict>

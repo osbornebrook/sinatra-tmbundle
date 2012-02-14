@@ -2,17 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>content</key>
-	<string>get '/${1:path}' do |${2:args}|
-	$0
-end</string>
 	<key>name</key>
-	<string>get..end</string>
+	<string>sinatra dsl</string>
 	<key>scope</key>
-	<string>source.ruby</string>
-	<key>tabTrigger</key>
-	<string>get</string>
+	<string>source.ruby.sinatra dsl.sinatra</string>
+	<key>settings</key>
+	<dict>
+		<key>showInSymbolList</key>
+		<integer>1</integer>
+	</dict>
 	<key>uuid</key>
-	<string>4B4318AB-0E4E-4F54-98FE-9EFD9CA11745</string>
+	<string>D1183927-3FE6-49FB-B347-EA0B3A84F7F8</string>
 </dict>
 </plist>
