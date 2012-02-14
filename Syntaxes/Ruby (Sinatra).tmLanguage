@@ -34,13 +34,9 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^.*(configure|before|error|get|put|post|delete)(.*)(do)</string>
+			<string>^\s*(configure|before|error|get|put|post|delete)\b(.*)\b(do)</string>
 			<key>name</key>
 			<string>dsl.sinatra</string>
-			<key>symbolTransformation</key>
-			<string>
-				s/.*(get|put|post|delete)(.*)do/$1: $2/;
-			</string>
 		</dict>
 		<dict>
 			<key>include</key>
