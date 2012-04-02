@@ -3,20 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string># alter table $1
-create_table(:${1:tablename}) do
-  primary_key :id, :auto_increment =&gt; true
-  $0
-  DateTime :created_at
-  DateTime :updated_at
-end</string>
+	<string>set_column_default :${1:column_name}, ${2:default}</string>
 	<key>name</key>
-	<string>createtable</string>
+	<string>set default</string>
 	<key>scope</key>
 	<string>source.ruby.sinatra</string>
 	<key>tabTrigger</key>
-	<string>mtab</string>
+	<string>mcol</string>
 	<key>uuid</key>
-	<string>E4930961-9AB1-4C4C-A8C5-EB9DB3E94DB4</string>
+	<string>9509F793-F01B-45F1-9C60-31D6FACB1566</string>
 </dict>
 </plist>
