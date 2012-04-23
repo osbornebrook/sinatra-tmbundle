@@ -12,7 +12,7 @@
 		<integer>1</integer>
 		<key>symbolTransformation</key>
 		<string>
-		s/^\s*(configure|before|error|get|put|post|delete)\s+\S(.*)\S\s+(do)/$1 $2/;
+		s/^\s*(configure|before|error|get|put|post|delete)\s+\W?(.*?)\W?\s+(do)/$1 $2/;
 	</string>
 	</dict>
 	<key>uuid</key>
